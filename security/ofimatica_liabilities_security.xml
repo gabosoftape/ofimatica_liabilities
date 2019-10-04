@@ -27,7 +27,7 @@
         <field name="name">Ver solo Mis Recibos</field>
         <field name="model_id" ref="account.model_account_invoice"/>
         <field name="domain_force">[('partner_id','=',user.partner_id.id)]</field>
-        <field name="groups" eval="[(4, ref('ofimatica_liabilities.group_property_owner'))]"/>
+        <field name="groups" eval="[(4, ref('ofimatica_liabilities.group_liabilities_owner'))]"/>
         <field name="perm_unlink" eval="0"/>
         <field name="perm_write" eval="0"/>
         <field name="perm_read" eval="1"/>
