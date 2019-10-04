@@ -8,18 +8,18 @@
     </record>
     <!-- add category to groups -->
     <!--Group for property manager -->
-    <record id="group_property_admin" model="res.groups">
-        <field name="name">Administrador Delegaco</field>
+    <record id="group_liabilities_admin" model="res.groups">
+        <field name="name">Administrador Delegado</field>
         <field name="category_id" ref="ofimatica_liabilities.category_ofimatica_liabilities"/>
     </record>
     <!--Group for Property owner -->
-    <record id="group_property_owner" model="res.groups">
+    <record id="group_liabilities_owner" model="res.groups">
         <field name="name">Propietario</field>
         <field name="category_id" ref="ofimatica_liabilities.category_ofimatica_liabilities"/>
     </record>
 
     <!--Group for property lessee-->
-    <record id="group_property_lessee" model="res.groups">
+    <record id="group_liabilities_lessee" model="res.groups">
         <field name="name">Arrendatario</field>
         <field name="category_id" ref="ofimatica_liabilities.category_ofimatica_liabilitiesy"/>
     </record>
