@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<odoo>
+    <data>
+        <menuitem name="Mis Obligaciones" id="ofimatica_liabilities_parent_menu" sequence="35" web_icon="ofimatica_liabilities,static/description/icon4.png"/>
+        <menuitem name="Recibos Administracion" id="ofimatica_liabilities_recibos_menu" action="liabilities_action_invoice_tree" parent="ofimatica_liabilities_parent_menu" sequence="10"/>
+        <menuitem name="Realizar pagos" id="ofimatica_liabilities_pagos_menu"  action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="20" />
+        <menuitem name="Historial de Estado de cuenta" id="ofimatica_liabilities_estado_cuenta_menu" action="liabilities_action_invoice_refund_out_tree" parent="ofimatica_liabilities_parent_menu" sequence="50"/>
+        <menuitem name="Pago de servicios Publicos" id="ofimatica_liabilities_servicios_publicos_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="90"/>
+        <menuitem name="Inmobiliarias" id="ofimatica_liabilities_inmobiliarias_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="90"/>
+        <menuitem name="Features" id="ofimatica_liabilities_features_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="110"/>
+        <menuitem name="Envios" id="ofimatica_liabilities_envios_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="120"/>
+        <menuitem name="Paz y salvos" id="ofimatica_liabilities_paz_salvo_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="130"/>
+        <menuitem name="Comparativo Presupuestos" id="ofimatica_liabilities_comparativo_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="150"/>
+        <menuitem name="Votacion" id="ofimatica_liabilities_votacion_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="170"/>
+        <menuitem name="Encuestas" id="ofimatica_liabilities_encuestas_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="190"/>
+        <menuitem name="Asambleas" id="ofimatica_liabilities_asambleas_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="210"/>
+        <menuitem name="Foros" id="ofimatica_liabilities_foros" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="220"/>
+    </data>
+</odoo>
