@@ -21,7 +21,7 @@
     <!--Group for property lessee-->
     <record id="group_liabilities_lessee" model="res.groups">
         <field name="name">Arrendatario</field>
-        <field name="category_id" ref="ofimatica_liabilities.category_ofimatica_liabilitiesy"/>
+        <field name="category_id" ref="ofimatica_liabilities.category_ofimatica_liabilities"/>
     </record>
    <record id="unique_data_owner_rule" model="ir.rule">
         <field name="name">Ver solo Mis Recibos</field>
