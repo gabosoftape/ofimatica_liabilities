@@ -26,7 +26,7 @@
    <record id="unique_data_owner_rule" model="ir.rule">
         <field name="name">Ver solo Mis Recibos</field>
         <field name="model_id" ref="account.model_account_invoice"/>
-        <field name="domain_force">[('partner_id.email','=',user.login)]</field>
+        <field name="domain_force">[('vendor_display_name','=',user.login)]</field>
         <field name="groups" eval="[(4, ref('ofimatica_liabilities.group_liabilities_owner'))]"/>
         <field name="perm_unlink" eval="0"/>
         <field name="perm_write" eval="0"/>
