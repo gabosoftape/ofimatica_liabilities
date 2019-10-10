@@ -12,18 +12,6 @@
                 </field>
             </record>
 
-            <record id="view_property_liabilities__form" model="ir.ui.view">
-                <field name="name">Features</field>
-                <field name="model">liabilities.features</field>
-                <field name="priority" eval="1"/>
-                <field name="arch" type="xml">
-                    <form>
-                        <p>Contenido en Desarrollo</p>
-                        <field name="name"/>
-                    </form>
-                </field>
-            </record>
-
             <record id="action_property_liabilities_features" model="ir.actions.act_window">
                 <field name="name">Features</field>
                 <field name="res_model">liabilities.features</field>
