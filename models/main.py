@@ -10,7 +10,7 @@ from odoo import models, fields, api, _
 from odoo.exceptions import UserError, Warning
 
 
-class propertyFeatures(models.Model):
+class propertyNext(models.Model):
     _name='property.liabilities.features'
 
     name=fields.Char("Nombre")
