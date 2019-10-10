@@ -11,10 +11,8 @@
         <menuitem name="Envios" id="ofimatica_liabilities_envios_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="120"/>
         <menuitem name="Paz y salvos" id="ofimatica_liabilities_paz_salvo_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="130"/>
         <menuitem name="Comparativo Presupuestos" id="ofimatica_liabilities_comparativo_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="150"/>
-        <menuitem name="Presupuestos" id="ofimatica_liabilities_comparativo_menu" action="om_account_budget.act_crossovered_budget_view" parent="ofimatica_liabilities_parent_menu" sequence="150"/>
-        <menuitem name="Analisis de Presupuestos" id="ofimatica_liabilities_comparativo_menu" action="om_account_budget.act_crossovered_budget_view" parent="ofimatica_liabilities_parent_menu" sequence="150"/>
-
-        om_account_budget.act_crossovered_budget_view
+        <menuitem name="Presupuestos" id="ofimatica_liabilities_presupuestos_menu" action="om_account_budget.act_crossovered_budget_view" parent="ofimatica_liabilities_parent_menu" sequence="151"/>
+        <menuitem name="Analisis de Presupuestos" id="ofimatica_ana_presupuestos_comparativo_menu" action="om_account_budget.act_crossovered_budget_lines_view" parent="ofimatica_liabilities_parent_menu" sequence="152"/>
         <menuitem name="Votacion" id="ofimatica_liabilities_votacion_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="170"/>
         <menuitem name="Encuestas" id="ofimatica_liabilities_encuestas_menu" action="survey.action_survey_form" parent="ofimatica_liabilities_parent_menu" sequence="190"/>
         <menuitem name="Asambleas" id="ofimatica_liabilities_asambleas_menu" parent="ofimatica_liabilities_parent_menu" sequence="210"/>
