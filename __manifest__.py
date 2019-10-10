@@ -18,7 +18,6 @@
     "license": "LGPL-3",
     "data": [
         'security/ofimatica_liabilities_security.xml',
-        'views/account_invoice.xml',
         'views/menus.xml',
         'views/asambleas.xml',
     ],

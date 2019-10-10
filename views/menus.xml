@@ -7,7 +7,7 @@
         <menuitem name="Historial de Estado de cuenta" id="ofimatica_liabilities_estado_cuenta_menu" action="account.action_invoice_refund_out_tree" parent="ofimatica_liabilities_parent_menu" sequence="50"/>
         <menuitem name="Pago de servicios Publicos" id="ofimatica_liabilities_servicios_publicos_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="90"/>
         <menuitem name="Inmobiliarias" id="ofimatica_liabilities_inmobiliarias_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="90"/>
-        <menuitem name="Features" id="ofimatica_liabilities_features_menu" action="action_property_liabilities_features" parent="ofimatica_liabilities_parent_menu" sequence="110"/>
+        <menuitem name="Features" id="ofimatica_liabilities_features_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="110"/>
         <menuitem name="Envios" id="ofimatica_liabilities_envios_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="120"/>
         <menuitem name="Paz y salvos" id="ofimatica_liabilities_paz_salvo_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="130"/>
         <menuitem name="Comparativo Presupuestos" id="ofimatica_liabilities_comparativo_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="150"/>
