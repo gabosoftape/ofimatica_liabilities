@@ -5,7 +5,7 @@
 
 {
     "name": "Obligaciones Ofimatica",
-    'version': '12.1.2.3',
+    'version': '12.1.2.4',
     "author": "Gabriel Pabón",
     "website": "https://www.ofimaticasoluciones.com.co",
 
@@ -18,6 +18,7 @@
     "license": "LGPL-3",
     "data": [
         'security/ofimatica_liabilities_security.xml',
+        'views/asambleas.xml',
         'views/account_invoice.xml',
         'views/menus.xml',
 
