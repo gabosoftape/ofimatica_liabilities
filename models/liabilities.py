@@ -11,3 +11,4 @@ class PropertyNext(models.Model):
     _name = 'liabilities.features'
 
     name = fields.Char("Nombre")
+    cod = fields.Float(string="Codigo")
