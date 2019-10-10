@@ -1,5 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_liabilities_admin,Acceso Administrador delegado,account.model_account_invoice,ofimatica_property.group_liabilities_admin,1,1,1,1
 access_liabilities_owner,Acceso Propietarios,account.model_account_invoice,ofimatica_property.group_liabilities_owner,1,0,0,0
-access_property_liabilities_features,access_property_liabilities_features,model_property_liabilities_features,base.group_user,1,0,0,0
+access_property_liabilities_features,access_property_liabilities_features,model_property_liabilities_features,ofimatica_property.group_liabilities_admin,1,1,1,1
 
