@@ -2,9 +2,10 @@
 <odoo>
     <data>
         <menuitem name="Mis Obligaciones" id="ofimatica_liabilities_parent_menu" sequence="2" web_icon="ofimatica_liabilities,static/description/icon2.png"/>
-        <menuitem name="Recibos Administracion" id="ofimatica_liabilities_recibos_menu" action="ofimatica_liabilities.action_property_liabilities_features" parent="ofimatica_liabilities_parent_menu" sequence="10"/>
+        <menuitem name="Recibos Administracion" id="ofimatica_liabilities_recibos_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="10"/>
         <menuitem name="Realizar pagos" id="ofimatica_liabilities_pagos_menu"  action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="20" />
         <menuitem name="Historial de Estado de cuenta" id="ofimatica_liabilities_estado_cuenta_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="50"/>
+        <menuitem name="Features" id="ofimatica_liabilities_features_menu" action="action_property_liabilities_features" parent="ofimatica_liabilities_parent_menu" sequence="9"/>
         <menuitem name="Pago de servicios Publicos" id="ofimatica_liabilities_servicios_publicos_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="90"/>
         <menuitem name="Inmobiliarias" id="ofimatica_liabilities_inmobiliarias_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="90"/>
         <menuitem name="Envios" id="ofimatica_liabilities_envios_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="120"/>
