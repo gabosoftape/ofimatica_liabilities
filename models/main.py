@@ -8,6 +8,6 @@ from odoo import models, fields, api, _
 
 
 class PropertyNext(models.Model):
-    _name = 'property.liabilities_features'
+    _name = 'liabilities.features'
 
     name = fields.Char("Nombre")
