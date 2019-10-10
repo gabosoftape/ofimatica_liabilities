@@ -52,6 +52,6 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form,pivot</field>
         </record>
-
+        action="ofimatica_liabilities.action_liabilities_asambleas"
     </data>
 </odoo>
