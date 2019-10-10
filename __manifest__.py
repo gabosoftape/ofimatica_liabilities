@@ -13,6 +13,7 @@
     "depends": [
         'account',
         'board',
+        'survey',
         'website_forum',
     ],
     "license": "LGPL-3",
