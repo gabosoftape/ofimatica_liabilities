@@ -1,8 +1,5 @@
 <?xml version="1.0" ?>
 <odoo>
-    <data>
-
-
         <record id="view_liabilities_asambleas_tree" model="ir.ui.view">
             <field name="name">Inmuebles</field>
             <field name="model">liabilities.asambleas</field>
@@ -53,5 +50,4 @@
             <field name="view_mode">tree,form,pivot</field>
         </record>
         <menuitem name="Asambleas" id="ofimatica_liabilities_asamblea_menu" parent="ofimatica_liabilities_asambleas_menu" sequence="1"/>
-    </data>
 </odoo>
