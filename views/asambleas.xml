@@ -15,8 +15,8 @@
         </record>
 
         <record id="view_liabilities_asambleas_form" model="ir.ui.view">
-            <field name="name">Inmueble</field>
-            <field name="model">property.building</field>
+            <field name="name">Asamblea</field>
+            <field name="model">liabilities.asambleas</field>
             <field name="priority" eval="1"/>
             <field name="arch" type="xml">
                 <form>
