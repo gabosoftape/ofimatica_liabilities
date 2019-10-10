@@ -14,6 +14,8 @@
         <menuitem name="Votacion" id="ofimatica_liabilities_votacion_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="170"/>
         <menuitem name="Encuestas" id="ofimatica_liabilities_encuestas_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="190"/>
         <menuitem name="Asambleas" id="ofimatica_liabilities_asambleas_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="210"/>
-        <menuitem name="Foros" id="ofimatica_liaibilities_foros_menu" action="website_forum.action_forum_post" parent="ofimatica_liabilities_parent_menu" sequence="220"/>
+        <menuitem name="Mis Foros" id="ofimatica_liaibilities_foros_parent_menu" parent="ofimatica_liabilities_parent_menu" sequence="220"/>
+        <menuitem name="Foros" id="ofimatica_liaibilities_create_foros_menu" action="website_forum.action_forum_forum" parent="ofimatica_liabilities_foros_parent_menu" sequence="1"/>
+        <menuitem name="Mensajes" id="ofimatica_liaibilities_message_foros_menu" action="website_forum.action_forum_post" parent="ofimatica_liabilities_foros_parent_menu" sequence="2"/>
     </data>
 </odoo>
