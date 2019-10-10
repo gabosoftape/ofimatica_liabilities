@@ -49,5 +49,5 @@
             <field name="view_type">form</field>
             <field name="view_mode">tree,form,pivot</field>
         </record>
-        <menuitem name="Asambleas" id="ofimatica_liabilities_asamblea_menu" parent="ofimatica_liabilities_asambleas_menu" sequence="1"/>
+
 </odoo>
