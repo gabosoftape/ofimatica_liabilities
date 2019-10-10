@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="action_property_liabilities_features" model="ir.actions.act_window">
-        <field name="name">Features</field>
-        <field name="res_model">liabilities.features</field>
-        <field name="view_type">form</field>
-        <field name="view_mode">form</field>
-    </record>
-    <menuitem name="Features" id="ofimatica_liabilities_features_menu" action="action_property_liabilities_features" parent="ofimatica_liabilities_recibos_menu" sequence="9"/>
+      <data>
+            <record id="view_property_liabilities_features_tree" model="ir.ui.view">
+                <field name="name">Features</field>
+                <field name="model">liabilities.features</field>
+                <field name="priority" eval="1"/>
+                <field name="arch" type="xml">
+                    <tree>
+                        <field name="name"/>
+                    </tree>
+                </field>
+            </record>
+
+            <record id="view_property_liabilities__form" model="ir.ui.view">
+                <field name="name">Features</field>
+                <field name="model">liabilities.features</field>
+                <field name="priority" eval="1"/>
+                <field name="arch" type="xml">
+                    <form>
+                        <p>Contenido en Desarrollo</p>
+                        <field name="name"/>
+                    </form>
+                </field>
+            </record>
+
+            <record id="action_property_liabilities_features" model="ir.actions.act_window">
+                <field name="name">Features</field>
+                <field name="res_model">liabilities.features</field>
+                <field name="view_type">form</field>
+                <field name="view_mode">tree,form</field>
+            </record>
+            <menuitem name="Features" id="ofimatica_liabilities_features_menu" action="action_property_liabilities_features" parent="ofimatica_liabilities_recibos_menu" sequence="9"/>
+      </data>
 </odoo>
