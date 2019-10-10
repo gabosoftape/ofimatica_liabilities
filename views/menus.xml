@@ -1,6 +1,5 @@
 <?xml version="1.0" ?>
 <odoo>
-    <data>
         <menuitem name="Mis Obligaciones" id="ofimatica_liabilities_parent_menu" sequence="2" web_icon="ofimatica_liabilities,static/description/icon2.png"/>
         <menuitem name="Recibos Administracion" id="ofimatica_liabilities_recibos_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="10"/>
         <menuitem name="Realizar pagos" id="ofimatica_liabilities_pagos_menu"  action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="20" />
@@ -15,5 +14,4 @@
         <menuitem name="Encuestas" id="ofimatica_liabilities_encuestas_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="190"/>
         <menuitem name="Asambleas" id="ofimatica_liabilities_asambleas_menu" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="210"/>
         <menuitem name="Foros" id="ofimatica_liabilities_foros" action="board.open_board_my_dash_action" parent="ofimatica_liabilities_parent_menu" sequence="220"/>
-    </data>
 </odoo>
