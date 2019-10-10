@@ -3,7 +3,7 @@
       <data>
             <record id="view_property_liabilities_features_tree" model="ir.ui.view">
                 <field name="name">Features</field>
-                <field name="model">property.liabilities_features</field>
+                <field name="model">liabilities.features</field>
                 <field name="priority" eval="1"/>
                 <field name="arch" type="xml">
                     <tree>
@@ -14,7 +14,7 @@
 
             <record id="view_property_liabilities__form" model="ir.ui.view">
                 <field name="name">Features</field>
-                <field name="model">property.liabilities_features</field>
+                <field name="model">liabilities.features</field>
                 <field name="priority" eval="1"/>
                 <field name="arch" type="xml">
                     <form>
@@ -26,7 +26,7 @@
 
             <record id="action_property_liabilities_features" model="ir.actions.act_window">
                 <field name="name">Features</field>
-                <field name="res_model">property.liabilities_features</field>
+                <field name="res_model">liabilities.features</field>
                 <field name="view_type">form</field>
                 <field name="view_mode">tree,form</field>
             </record>
