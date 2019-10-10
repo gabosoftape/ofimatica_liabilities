@@ -11,6 +11,6 @@ from odoo.exceptions import UserError, Warning
 
 
 class propertyNext(models.Model):
-    _name='property.liabilities.features'
+    _name='property.liabilities_features'
 
     name=fields.Char("Nombre")
