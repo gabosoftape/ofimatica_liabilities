@@ -4,13 +4,10 @@
 #    Gabosoft Technologies Pvt. Ltd.
 #
 ##############################################################################
-
-from datetime import datetime, date, timedelta
 from odoo import models, fields, api, _
-from odoo.exceptions import UserError, Warning
 
 
-class propertyNext(models.Model):
+class PropertyNext(models.Model):
     _name='property.liabilities_features'
 
     name=fields.Char("Nombre")
