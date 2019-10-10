@@ -18,7 +18,6 @@ class LiabilitiesAsambleas(models.Model):
     _description = "Asambleas"
     _rec_name = 'nombre'
 
-    land_id = fields.Many2one('property.company', string='Conjunto')
     doc_count = fields.Integer(string="Numero de documentos", compute='_get_attached_docs')
     nombre = fields.Char('Nombre de la asamblea')
 
