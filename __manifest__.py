@@ -5,7 +5,7 @@
 
 {
     "name": "Obligaciones Ofimatica",
-    'version': '12.1.2.4',
+    'version': '12.2.2.4',
     "author": "Gabriel Pabón",
     "website": "https://www.ofimaticasoluciones.com.co",
 
