@@ -30,7 +30,5 @@
                 <field name="view_type">form</field>
                 <field name="view_mode">form</field>
             </record>
-
-          <menuitem name="Features" id="ofimatica_liabilities_features_menu" action="action_property_liabilities_features" parent="ofimatica_liabilities_parent_menu" sequence="110"/>
       </data>
 </odoo>
